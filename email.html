@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Notification</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body {
+        background-color: #eee;
+        font-family: system-ui;
+      }
+
+      section {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+      }
+      article {
+        background: #fff;
+        width: 400px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+        box-shadow: 2px 2px 4px 0px #ccc;
+      }
+      h1 {
+        padding: 15px 0;
+        text-transform: uppercase;
+        color: crimson;
+        font-weight: 700;
+        font-family: system-ui;
+      }
+
+      input {
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 100%;
+        margin: 10px 0;
+      }
+
+      button {
+        width: 30%;
+        height: 34px;
+        background: crimson;
+        border: none;
+        color: #fff;
+        margin: 3px 0 5px;
+        border-radius: 3px;
+        float: right;
+      }
+    </style>
+</head>
+<body>
+    <section>
+        <article>
+            <h1>Subscribe to our Newsletter</h1>
+            <form action="/" method="POST">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" placeholder="enter valid email address" required />
+                  <button class="btn">Subscribe</button>
+            </form>
+        </article>
+    </section>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "email_sender",
+  "version": "1.0.0",
+  "description": "we are learning sending email by using nodejs backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "email",
+    "mongodb"
+  ],
+  "author": "nirbhay",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "nodemailer": "^6.4.17"
+  }
+}
